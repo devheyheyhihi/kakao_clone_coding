@@ -1,3 +1,3 @@
 # Kakao Clone Coding
 
-public
+기초 html, css
