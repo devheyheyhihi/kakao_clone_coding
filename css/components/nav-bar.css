@@ -18,10 +18,23 @@
   position: relative;
 }
 
+@keyframes movenoti {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-8px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 15px;
   bottom: 15px;
+  animation: movenoti 1s ease-in-out infinite;
 }
 
 .nav__noti-dot {
