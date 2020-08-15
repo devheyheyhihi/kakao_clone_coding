@@ -47,6 +47,10 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__column i {
+  color: rgba(0, 0, 0, 1);
+}
+
 .user-component__column-row:last-child {
   color: rgba(0, 0, 0, 0.3);
 }
