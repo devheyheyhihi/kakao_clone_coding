@@ -102,6 +102,7 @@
   justify-content: space-between;
   width: 100%;
   background-color: white;
+  transition: all 0.4s ease-in-out;
 }
 
 .reply__column:first-child {
@@ -124,15 +125,19 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
-  transform: translateX(-8%);
-  width: 94vw;
-}
-
 .reply .reply__column:first-child,
 .reply .reply__column:last-child i,
 .reply .reply__column:last-child button {
   transition: opacity 0.2s ease-in-out;
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
+}
+
+.reply:focus-within input {
+  transform: translateX(-8%) translateY(-80px);
+  width: 94vw;
 }
 
 .reply input {
