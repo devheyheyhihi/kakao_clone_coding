@@ -8,3 +8,11 @@
   background-color: tomato;
   color: white;
 }
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  position: absolute;
+}

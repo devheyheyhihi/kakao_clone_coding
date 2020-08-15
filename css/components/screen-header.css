@@ -13,4 +13,10 @@
 
 .screen-header__icons span {
   padding-left: 25px;
+  position: relative;
+}
+
+.screen-header__noti-dot {
+  left: 45px;
+  bottom: 20px;
 }

@@ -25,11 +25,6 @@
 }
 
 .nav__noti-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  position: absolute;
-  background-color: tomato;
   left: 30px;
   bottom: 30px;
 }
