@@ -118,6 +118,23 @@
   width: 90%;
 }
 
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply__column:last-child i,
+.reply:focus-within .reply__column:last-child button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  transform: translateX(-8%);
+  width: 94vw;
+}
+
+.reply .reply__column:first-child,
+.reply .reply__column:last-child i,
+.reply .reply__column:last-child button {
+  transition: opacity 0.2s ease-in-out;
+}
+
 .reply input {
   font-size: 18px;
   position: relative;
@@ -127,6 +144,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 0 10px;
+  transition: all 0.4s ease-in-out;
 }
 
 .reply__column:last-child > i {
