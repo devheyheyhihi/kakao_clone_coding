@@ -135,7 +135,7 @@
   transform: translateY(80px);
 }
 
-.reply:focus-within input {
+input:focus {
   transform: translateX(-8%) translateY(-80px);
   width: 94vw;
 }
